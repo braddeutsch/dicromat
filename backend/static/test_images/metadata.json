@@ -1,0 +1,908 @@
+{
+  "version": "1.0",
+  "generated_at": "2025-12-07T15:12:44.337941Z",
+  "total_images": 100,
+  "seed": "1765120364.337694",
+  "images": [
+    {
+      "id": 0,
+      "filename": "image_000.png",
+      "correct_answer": 61,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "7713e88376a151aba2d972c644c47b446889f96270cce7216e296cc14daf3f77",
+      "file_size": 43374
+    },
+    {
+      "id": 1,
+      "filename": "image_001.png",
+      "correct_answer": 29,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "517dbefdfa9337a7c269f5f13c1fb0bc27ad6eec48328a78c231c669626e0eee",
+      "file_size": 41855
+    },
+    {
+      "id": 2,
+      "filename": "image_002.png",
+      "correct_answer": 84,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "546129a6c5f3024b564b330397e2262f66bc4a872d4ba5bab1a49569e2da209e",
+      "file_size": 41106
+    },
+    {
+      "id": 3,
+      "filename": "image_003.png",
+      "correct_answer": 42,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "82d0da71a15cc73f5aaa211633e3d8e8b70f39d93739ac989a6d01e5b7ca4c81",
+      "file_size": 40777
+    },
+    {
+      "id": 4,
+      "filename": "image_004.png",
+      "correct_answer": 60,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "243e5f37e1037283f34fdd3d469fd281b41cf3b06d64281de017e6e7a256536f",
+      "file_size": 41167
+    },
+    {
+      "id": 5,
+      "filename": "image_005.png",
+      "correct_answer": 81,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "71c4a9ed537661a2daf63bb9184f46d7580082ba9065b89665c0bc082d8bb592",
+      "file_size": 41486
+    },
+    {
+      "id": 6,
+      "filename": "image_006.png",
+      "correct_answer": 32,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "561b851edac09c219bc0767c56d63fb20aa2c72f9169a65492cf6c11fcce596f",
+      "file_size": 42554
+    },
+    {
+      "id": 7,
+      "filename": "image_007.png",
+      "correct_answer": 85,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "d550a5ecf44aa4c40601fd584bff9b6daa3c774c137214888402960ceda5cd12",
+      "file_size": 42055
+    },
+    {
+      "id": 8,
+      "filename": "image_008.png",
+      "correct_answer": 72,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "9f6b75e92966e930c6212bc09dbc330071e5c1453fa0a8da3ee40931e2c36b77",
+      "file_size": 42291
+    },
+    {
+      "id": 9,
+      "filename": "image_009.png",
+      "correct_answer": 57,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "ffe65d505881ead603168de833327f273204d293d78a4dd4c32f74c2573e200d",
+      "file_size": 41968
+    },
+    {
+      "id": 10,
+      "filename": "image_010.png",
+      "correct_answer": 55,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "30c01b87108716199b1d8dc49a3e87ba27ef2a16b0cf6347e0db4c6bb26abed5",
+      "file_size": 42159
+    },
+    {
+      "id": 11,
+      "filename": "image_011.png",
+      "correct_answer": 87,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "9a44624f5933c39ca1a80b6e5f3fb8b36ee9f9fbc3ef572490879283d978c633",
+      "file_size": 40899
+    },
+    {
+      "id": 12,
+      "filename": "image_012.png",
+      "correct_answer": 49,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "f85627fb3fef36d6923f296d64013e2e532d5d64856452c40741c920fecccd17",
+      "file_size": 43064
+    },
+    {
+      "id": 13,
+      "filename": "image_013.png",
+      "correct_answer": 72,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "9913683b732e0641dfcdae3cdacd357be1ab471a2bcd5cc6ff34008912deb262",
+      "file_size": 42609
+    },
+    {
+      "id": 14,
+      "filename": "image_014.png",
+      "correct_answer": 37,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "f7529b07c1ef7a266a0b117be579d4b047e0019d90bbbc9a4abfad6b430afd48",
+      "file_size": 42642
+    },
+    {
+      "id": 15,
+      "filename": "image_015.png",
+      "correct_answer": 50,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "7f6a63a5fe31646eaf6cdc2df093c8af23962deebc6bbd7710fc14ae78ec919a",
+      "file_size": 42764
+    },
+    {
+      "id": 16,
+      "filename": "image_016.png",
+      "correct_answer": 25,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "9eb4bd0a852e2ab4301d4498c4493e7d4bed3ce930ff71c42ed71b215a83e2fa",
+      "file_size": 42787
+    },
+    {
+      "id": 17,
+      "filename": "image_017.png",
+      "correct_answer": 15,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "7a738b89fbf32785bbee670d7bf63c09d5401a1eb597c486b7d5b63282b445e5",
+      "file_size": 41663
+    },
+    {
+      "id": 18,
+      "filename": "image_018.png",
+      "correct_answer": 74,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "3a7e90dcb186fac0be25b76abbec1f6cb9c699a50eff22d86345355b7abc62a5",
+      "file_size": 41131
+    },
+    {
+      "id": 19,
+      "filename": "image_019.png",
+      "correct_answer": 78,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "f808868f3c51ac55ef07b7e169ec888cf75052784b3cc8fc78f2c7fe0c4c0d07",
+      "file_size": 40683
+    },
+    {
+      "id": 20,
+      "filename": "image_020.png",
+      "correct_answer": 61,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "4faa0406f1122ca2b9f28b16a23b55f78444c034142c537f355e43762de00200",
+      "file_size": 41747
+    },
+    {
+      "id": 21,
+      "filename": "image_021.png",
+      "correct_answer": 85,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "558433d2c71af9c07d6acd84e23632c5f2ed22ea8ab45262a6b59183931fe066",
+      "file_size": 42044
+    },
+    {
+      "id": 22,
+      "filename": "image_022.png",
+      "correct_answer": 36,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "04aad848026a2f994fb7d316a5f65942e24a30ace1bb6d2af15a88c61e769680",
+      "file_size": 40872
+    },
+    {
+      "id": 23,
+      "filename": "image_023.png",
+      "correct_answer": 34,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "c137aac4d7e27368c364e23a3d806c8dfe722b6562ce4ba1a33fcbc04668b0d9",
+      "file_size": 43271
+    },
+    {
+      "id": 24,
+      "filename": "image_024.png",
+      "correct_answer": 11,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "e1e000e2a5ff2a9d7afe9d311d3d8142cf86d226f731db811047a6bc087c42cf",
+      "file_size": 43192
+    },
+    {
+      "id": 25,
+      "filename": "image_025.png",
+      "correct_answer": 78,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "d457f9e7388d550752c7d1b6d8f0465e34aeab9b74e8bbf6f48d54d6051545cf",
+      "file_size": 43605
+    },
+    {
+      "id": 26,
+      "filename": "image_026.png",
+      "correct_answer": 51,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "cdd0b0cfb7d0ee8dbb6e44dae7d36ed5eb6f324ad161532cd1c0207e6725602d",
+      "file_size": 44054
+    },
+    {
+      "id": 27,
+      "filename": "image_027.png",
+      "correct_answer": 15,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "3bf6c9137c5f09f4190cf70422cd9129f581c9f10f32df70d8cc3ff06e214456",
+      "file_size": 41818
+    },
+    {
+      "id": 28,
+      "filename": "image_028.png",
+      "correct_answer": 44,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "983c883e3b3a5b10e0b7b95d13b1e33b51aa755ffc9374f8ba845f4108e316e4",
+      "file_size": 41399
+    },
+    {
+      "id": 29,
+      "filename": "image_029.png",
+      "correct_answer": 10,
+      "dichromism_type": "protanopia",
+      "difficulty": "medium",
+      "sha256": "996341abb3d97ca56e6ce6121295cd5516e143921ad5775cd4bf38c56fbae157",
+      "file_size": 40931
+    },
+    {
+      "id": 30,
+      "filename": "image_030.png",
+      "correct_answer": 43,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "6eb7d77743be6fc41acbed78c882f5129ca5ae2f7004fe013f3e24adc4b5bad5",
+      "file_size": 42801
+    },
+    {
+      "id": 31,
+      "filename": "image_031.png",
+      "correct_answer": 21,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "ad48e97762b99470709af6718784f5641814eadeaee1ed1aa670542bc0a5a28d",
+      "file_size": 42103
+    },
+    {
+      "id": 32,
+      "filename": "image_032.png",
+      "correct_answer": 63,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "13ca04c282ee42bc84be55e5933aef97a335b411609d2df38eb0ddd63dcd882a",
+      "file_size": 42917
+    },
+    {
+      "id": 33,
+      "filename": "image_033.png",
+      "correct_answer": 81,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "0072018fcfb943a7838180c9d178ba8bf475fab78524833218d6932335fb6b09",
+      "file_size": 41516
+    },
+    {
+      "id": 34,
+      "filename": "image_034.png",
+      "correct_answer": 33,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "11b9476bd649d43045547c7359b45ea3751c6be94c21de766b78e69c7af63d7c",
+      "file_size": 41620
+    },
+    {
+      "id": 35,
+      "filename": "image_035.png",
+      "correct_answer": 61,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "ede5689426a5b3a52ab34fae970e9475aab4521e78ee15c4ed638284e36636e9",
+      "file_size": 42621
+    },
+    {
+      "id": 36,
+      "filename": "image_036.png",
+      "correct_answer": 42,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "a33e46840338a155e715e0f7ac05fd76c2aadad18339fec10f54e9f126fa1491",
+      "file_size": 43295
+    },
+    {
+      "id": 37,
+      "filename": "image_037.png",
+      "correct_answer": 10,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "13733e33d6cd5d9bf23056e265d4016b3112b4006364776909689e04187d6d02",
+      "file_size": 42463
+    },
+    {
+      "id": 38,
+      "filename": "image_038.png",
+      "correct_answer": 29,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "e4423813a00a0b93332c074ffc9da323067b5c620161d428a520b74469cb58f5",
+      "file_size": 42264
+    },
+    {
+      "id": 39,
+      "filename": "image_039.png",
+      "correct_answer": 39,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "a56abd01b8b3025836a9782bb72479face576bb0aa395e33b08551f1164d1c62",
+      "file_size": 42045
+    },
+    {
+      "id": 40,
+      "filename": "image_040.png",
+      "correct_answer": 50,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "505f6c8f292c0707e908716a504a1643afb572454265e9640615708c6a60560e",
+      "file_size": 41056
+    },
+    {
+      "id": 41,
+      "filename": "image_041.png",
+      "correct_answer": 37,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "398d1f2d9f5a4a56b5eca86dca532ece42e40a5f6c294c1a4a862956a2e7e061",
+      "file_size": 41445
+    },
+    {
+      "id": 42,
+      "filename": "image_042.png",
+      "correct_answer": 39,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "7bcc098c04e0eaa3d3138c3e8f790fbfad1e16311a194fb6afe5c1fa335c9c79",
+      "file_size": 40557
+    },
+    {
+      "id": 43,
+      "filename": "image_043.png",
+      "correct_answer": 48,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "582c1ac01a236ee94b2888eb989b7b9382f0c36d2e337d7e0d4d6cfe73b58e0b",
+      "file_size": 41807
+    },
+    {
+      "id": 44,
+      "filename": "image_044.png",
+      "correct_answer": 25,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "2f276b2ea29c438be11c7bd8afa8520892d04304869fead182d8464e4a4d6d01",
+      "file_size": 40560
+    },
+    {
+      "id": 45,
+      "filename": "image_045.png",
+      "correct_answer": 19,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "5337718efaefb53d0e4fcbbed2b5e4c82f65bb18c0fe16a59388804b7e13bf61",
+      "file_size": 42960
+    },
+    {
+      "id": 46,
+      "filename": "image_046.png",
+      "correct_answer": 49,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "9a8bfb17571d3c811cd47d929f49af0d62a4779ba6d13aad0bbd2acc10aeac9f",
+      "file_size": 41619
+    },
+    {
+      "id": 47,
+      "filename": "image_047.png",
+      "correct_answer": 31,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "ac3416649559dd94c29a14b8aa347acc83d9073d6be97eeb906f497713a38428",
+      "file_size": 41657
+    },
+    {
+      "id": 48,
+      "filename": "image_048.png",
+      "correct_answer": 34,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "13c5a53e492d26bd665b5c00ba7fe0bde5facfe2ad8cfb07e0914169e92d030b",
+      "file_size": 41764
+    },
+    {
+      "id": 49,
+      "filename": "image_049.png",
+      "correct_answer": 37,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "59658be734e3257979016722da16586b8a7d5f9df38ff564dac743943cc80770",
+      "file_size": 43213
+    },
+    {
+      "id": 50,
+      "filename": "image_050.png",
+      "correct_answer": 70,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "c810b3b368260e0e71278d5750f9e859dcc2d86d56770554b5c11e6466a1e25e",
+      "file_size": 43210
+    },
+    {
+      "id": 51,
+      "filename": "image_051.png",
+      "correct_answer": 65,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "1ea5765feaefb19c61c85b138fcdb4667ab75f488f085e02762f91f2ff67b8ae",
+      "file_size": 42767
+    },
+    {
+      "id": 52,
+      "filename": "image_052.png",
+      "correct_answer": 31,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "b18f1bec29f85d62bd2866d8b5b5ad03b28dd11471d2df4814e9e39063b52ffe",
+      "file_size": 42692
+    },
+    {
+      "id": 53,
+      "filename": "image_053.png",
+      "correct_answer": 55,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "a2afb6210fba4b701f269d7d62403b7e186409780524dca5711f3ecb6f1284fc",
+      "file_size": 44212
+    },
+    {
+      "id": 54,
+      "filename": "image_054.png",
+      "correct_answer": 19,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "6ceface5c6c8a93b0e438cb8af58038aef34ab48dba697a2ca097cde6abc1dab",
+      "file_size": 41423
+    },
+    {
+      "id": 55,
+      "filename": "image_055.png",
+      "correct_answer": 49,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "8d69ec26833b28722cb2fbcb1f21c4121dd101f9f135d569c0409dfd5400e3e8",
+      "file_size": 42530
+    },
+    {
+      "id": 56,
+      "filename": "image_056.png",
+      "correct_answer": 23,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "ebde6aad936d3c46603528395a6f0aee0a2754298a68387d395a7baffdcb0c09",
+      "file_size": 44253
+    },
+    {
+      "id": 57,
+      "filename": "image_057.png",
+      "correct_answer": 19,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "69a7e800029c6dfe045cf2a1c18aa8e2422c9d8554916975084c145cd054320a",
+      "file_size": 43093
+    },
+    {
+      "id": 58,
+      "filename": "image_058.png",
+      "correct_answer": 67,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "453af04114506ed47027aca5c17a59c1f1cedb1a683d6336931c0e7bbad682f3",
+      "file_size": 41021
+    },
+    {
+      "id": 59,
+      "filename": "image_059.png",
+      "correct_answer": 33,
+      "dichromism_type": "deuteranopia",
+      "difficulty": "medium",
+      "sha256": "312f50e3af348cd3912bd13e7a63fcf0c55eb527e9630da2b14eb18a001368bf",
+      "file_size": 43001
+    },
+    {
+      "id": 60,
+      "filename": "image_060.png",
+      "correct_answer": 63,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "75cbf46297b03139ab5208bcd4eca6ec5f507ab235509e5e3b4898e5f9d3a045",
+      "file_size": 41802
+    },
+    {
+      "id": 61,
+      "filename": "image_061.png",
+      "correct_answer": 65,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "0940ca48b2fd021f9fd74d767a6e147187cc25ba3b874e975abfdd978deba6d7",
+      "file_size": 43051
+    },
+    {
+      "id": 62,
+      "filename": "image_062.png",
+      "correct_answer": 62,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "bda04b98b4ed328c3aa262f8dab3fa8fbad43e053a1cc7b517758960abd61d61",
+      "file_size": 42466
+    },
+    {
+      "id": 63,
+      "filename": "image_063.png",
+      "correct_answer": 36,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "7190a7150d9d5223e2415d19988cfd1ed613f278dcbbdbb728ad0026e4b28c64",
+      "file_size": 44329
+    },
+    {
+      "id": 64,
+      "filename": "image_064.png",
+      "correct_answer": 84,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "d7865fb6ad7725edb7c2f73b8086d1012bc57a5de3da06ed7c637187f5f572ae",
+      "file_size": 42194
+    },
+    {
+      "id": 65,
+      "filename": "image_065.png",
+      "correct_answer": 68,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "3f6aaaa158a7b25941a2d08c2b13bc6647f0792fef703bbd06118cc69d666d1a",
+      "file_size": 42254
+    },
+    {
+      "id": 66,
+      "filename": "image_066.png",
+      "correct_answer": 46,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "156f58e0afb63e20811907e1f68fe7fc5e362157eee30a058e850e30602f0010",
+      "file_size": 42958
+    },
+    {
+      "id": 67,
+      "filename": "image_067.png",
+      "correct_answer": 66,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "528063638818eb9f4d167f8f7d0fa7799a3891e33c479bc92c81c11ce4bb77ca",
+      "file_size": 42399
+    },
+    {
+      "id": 68,
+      "filename": "image_068.png",
+      "correct_answer": 27,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "49eddfab91331fb308dc1338ea73d110e02819e49dbe94f584e6531354b40314",
+      "file_size": 42598
+    },
+    {
+      "id": 69,
+      "filename": "image_069.png",
+      "correct_answer": 46,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "c53511c9af0c31eb67bdbb47a73608d92031ab781daf1b7aaf16d950a0ed0ada",
+      "file_size": 41246
+    },
+    {
+      "id": 70,
+      "filename": "image_070.png",
+      "correct_answer": 32,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "2ddb65015252b47fc58743a0adc226a144c231f7c687f90418d6625ddfd62a78",
+      "file_size": 41803
+    },
+    {
+      "id": 71,
+      "filename": "image_071.png",
+      "correct_answer": 36,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "3304a38df6dd370784a54e6aec0c117d4af2f4373f5d83e135b360e2371e47be",
+      "file_size": 40529
+    },
+    {
+      "id": 72,
+      "filename": "image_072.png",
+      "correct_answer": 10,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "7f182352d02d37eff297080250e30367c0feb99af415f898d08ba5b4b9e70795",
+      "file_size": 40743
+    },
+    {
+      "id": 73,
+      "filename": "image_073.png",
+      "correct_answer": 27,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "74614c1ce48e8fc5f4fb33f630f066e27c471656e69ad261672b8185736583ec",
+      "file_size": 42934
+    },
+    {
+      "id": 74,
+      "filename": "image_074.png",
+      "correct_answer": 28,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "7c9e6f90f1f0e740f216b7d462a2e4821a242b59873f6fac3aaedf8d0d086c46",
+      "file_size": 42414
+    },
+    {
+      "id": 75,
+      "filename": "image_075.png",
+      "correct_answer": 30,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "e54cca4d839326b089392a1f52cbaa8c8a7b543190e68a2b57bb3dbfa931f8f6",
+      "file_size": 42551
+    },
+    {
+      "id": 76,
+      "filename": "image_076.png",
+      "correct_answer": 37,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "2e2e8ff60b1c1554152d49b71eec4e2fb5b55ae53354fb4303090c23d7bb72a9",
+      "file_size": 42212
+    },
+    {
+      "id": 77,
+      "filename": "image_077.png",
+      "correct_answer": 89,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "3854ebdcfe242bbf22bd181d55cc148d20a9ed35c6182107b8d5d5e3a36dee0e",
+      "file_size": 41275
+    },
+    {
+      "id": 78,
+      "filename": "image_078.png",
+      "correct_answer": 24,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "b9ab8c72d6c5fa3ea475bb1be53695dc4a5d67f6c8f5c90cdc3567af5c5e56b7",
+      "file_size": 43305
+    },
+    {
+      "id": 79,
+      "filename": "image_079.png",
+      "correct_answer": 77,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "ad6db554bfa720b7cea6fe91b878fbfc7fdce279c42c1779295374a50705953b",
+      "file_size": 41016
+    },
+    {
+      "id": 80,
+      "filename": "image_080.png",
+      "correct_answer": 62,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "5fb0497ca6ba6423faa7096655764929943fd1250e1dfd94531d53f994b1081a",
+      "file_size": 41050
+    },
+    {
+      "id": 81,
+      "filename": "image_081.png",
+      "correct_answer": 77,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "6562db40bb4a3d2b25dcff85b3bb13991589496dc277a35ff1b7d94e34c0bf54",
+      "file_size": 40635
+    },
+    {
+      "id": 82,
+      "filename": "image_082.png",
+      "correct_answer": 13,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "9f32e1c7baf6297c3da546c0247b2e09421d4dde3578f2824c0e2f656a6dae27",
+      "file_size": 43039
+    },
+    {
+      "id": 83,
+      "filename": "image_083.png",
+      "correct_answer": 36,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "1a013c801e6692b85abf4948586d3b5a15d507ccd609151b3b40592128a89f8b",
+      "file_size": 41503
+    },
+    {
+      "id": 84,
+      "filename": "image_084.png",
+      "correct_answer": 53,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "5ed622a498890a35ae96ae7f9e38b09aab160f03df356007d839704b88a01d17",
+      "file_size": 41293
+    },
+    {
+      "id": 85,
+      "filename": "image_085.png",
+      "correct_answer": 17,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "1ca82b7ffc9aa2ce4dd7363296ab3223c70fb9947dea928d1824b3672b0d5d44",
+      "file_size": 42483
+    },
+    {
+      "id": 86,
+      "filename": "image_086.png",
+      "correct_answer": 36,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "65f72bf9e06b1f3f35c0efcfacf8c7ac1a211db6c2106172894f80098e27f8f7",
+      "file_size": 41814
+    },
+    {
+      "id": 87,
+      "filename": "image_087.png",
+      "correct_answer": 36,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "c8d959f5bb6dcb5b4fd3ecd06bba72e16867767fa9f8b6f97203abea87d92a81",
+      "file_size": 43715
+    },
+    {
+      "id": 88,
+      "filename": "image_088.png",
+      "correct_answer": 61,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "8e776a67c9be2f9a0478b4c216eccd25060806262e93250716bc0b916670a2f8",
+      "file_size": 42609
+    },
+    {
+      "id": 89,
+      "filename": "image_089.png",
+      "correct_answer": 45,
+      "dichromism_type": "tritanopia",
+      "difficulty": "medium",
+      "sha256": "f10dc003c6f275a89d2c68c1f414fd4837ca210bd2061360d30c007d49cf50d0",
+      "file_size": 40627
+    },
+    {
+      "id": 90,
+      "filename": "image_090.png",
+      "correct_answer": 17,
+      "dichromism_type": "control",
+      "difficulty": "medium",
+      "sha256": "a416b09825ab7939e02a914c82b108050b50dc718d7886c0e1800caa6290d118",
+      "file_size": 41162
+    },
+    {
+      "id": 91,
+      "filename": "image_091.png",
+      "correct_answer": 18,
+      "dichromism_type": "control",
+      "difficulty": "medium",
+      "sha256": "121078b94ea07f74f7a1cca96c7e0147b2dfca4489077034d8aea26120cf3ca4",
+      "file_size": 41322
+    },
+    {
+      "id": 92,
+      "filename": "image_092.png",
+      "correct_answer": 45,
+      "dichromism_type": "control",
+      "difficulty": "medium",
+      "sha256": "d49c50be3bf61d155d08f1cf4a45cdd872d67b28e32c9b5f9206418505b83767",
+      "file_size": 42569
+    },
+    {
+      "id": 93,
+      "filename": "image_093.png",
+      "correct_answer": 84,
+      "dichromism_type": "control",
+      "difficulty": "medium",
+      "sha256": "3e28356765a572eeab994a8cfade8656d66315df071235a3afcc7be8de5fd5e8",
+      "file_size": 42917
+    },
+    {
+      "id": 94,
+      "filename": "image_094.png",
+      "correct_answer": 15,
+      "dichromism_type": "control",
+      "difficulty": "medium",
+      "sha256": "5348ae98918b44204e0990ce6d6d4f0b87d342d0bd6b3c9375585eea4c913d43",
+      "file_size": 42958
+    },
+    {
+      "id": 95,
+      "filename": "image_095.png",
+      "correct_answer": 74,
+      "dichromism_type": "control",
+      "difficulty": "medium",
+      "sha256": "5aa2a155eae173581e505b26fee6f9a16ee69a4b54fb942544e6765593493093",
+      "file_size": 40635
+    },
+    {
+      "id": 96,
+      "filename": "image_096.png",
+      "correct_answer": 31,
+      "dichromism_type": "control",
+      "difficulty": "medium",
+      "sha256": "95c7eb488f81bf053c81c968702a179e9ea98ce550912f3e057cfb463bfc4b40",
+      "file_size": 40843
+    },
+    {
+      "id": 97,
+      "filename": "image_097.png",
+      "correct_answer": 68,
+      "dichromism_type": "control",
+      "difficulty": "medium",
+      "sha256": "79b5f95c3d16c89f2ee316a12ba3485d680060e655f0360caf3a076682b04a4d",
+      "file_size": 40844
+    },
+    {
+      "id": 98,
+      "filename": "image_098.png",
+      "correct_answer": 30,
+      "dichromism_type": "control",
+      "difficulty": "medium",
+      "sha256": "d12fdd61dce5d13d7301e0dfdb75890b13a0862ec6117957b1b632eb2698a504",
+      "file_size": 42629
+    },
+    {
+      "id": 99,
+      "filename": "image_099.png",
+      "correct_answer": 49,
+      "dichromism_type": "control",
+      "difficulty": "medium",
+      "sha256": "d906196042517b0659288a05002d5b9eda9a792c44fa44bc04d7306110b49b1c",
+      "file_size": 42421
+    }
+  ]
+}

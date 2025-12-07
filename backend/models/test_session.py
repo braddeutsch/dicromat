@@ -12,6 +12,9 @@ class TestSession(db.Model):
     user_agent = db.Column(db.String(500), nullable=True)
     ip_address = db.Column(db.String(45), nullable=True)
     metadata_json = db.Column(db.JSON, nullable=True)
+    # Mapping of test image numbers (1-10) to pre-generated image IDs (0-99)
+    # Format: {"1": 5, "2": 12, ...} (keys are strings in JSON)
+    image_mapping = db.Column(db.JSON, nullable=True)
 
     answers = db.relationship('Answer', backref='session', lazy=True, cascade='all, delete-orphan')
 
