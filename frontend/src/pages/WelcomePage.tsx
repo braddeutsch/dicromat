@@ -122,6 +122,9 @@ export function WelcomePage() {
             replace professional medical diagnosis. Please consult an eye care 
             professional for a comprehensive evaluation.
           </p>
+          <p className="text-small mt-4">
+            <a href="/slider">Open Parameter Explorer (Slider App)</a>
+          </p>
         </footer>
       </div>
     </div>

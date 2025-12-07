@@ -2,6 +2,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { WelcomePage } from '../pages/WelcomePage';
 import { TestPage } from '../pages/TestPage';
 import { ResultsPage } from '../pages/ResultsPage';
+import { SliderApp } from '../pages/SliderApp';
 
 function NotFound() {
   return (
@@ -23,6 +24,7 @@ export function AppRoutes() {
   return (
     <Routes>
       <Route path="/" element={<WelcomePage />} />
+      <Route path="/slider" element={<SliderApp />} />
       <Route path="/test/:sessionId" element={<TestPage />} />
       <Route path="/results/:sessionId" element={<ResultsPage />} />
       <Route path="/404" element={<NotFound />} />

@@ -1,0 +1,1 @@
+export { SliderApp } from './SliderApp';
