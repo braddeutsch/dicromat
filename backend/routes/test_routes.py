@@ -65,7 +65,7 @@ def get_image(session_id: str, image_number: int):
         return error_response('INVALID_IMAGE_NUMBER', 'Image number must be between 1 and 10', 400)
     
     try:
-        generator = ImageGenerator(current_app.config.get('RANDOM_SEED_SALT', 'dicromat-salt'))
+        generator = ImageGenerator(current_app.config.get('RANDOM_SEED_SALT', 'dicrhomat-salt'))
         config = generator.get_test_config(session_id, image_number)
         image_bytes = generator.generate_test_image(
             session_id,
@@ -109,7 +109,7 @@ def submit_answer(session_id: str):
         return error_response('ANSWER_ALREADY_EXISTS', 'This image has already been answered', 409)
     
     try:
-        generator = ImageGenerator(current_app.config.get('RANDOM_SEED_SALT', 'dicromat-salt'))
+        generator = ImageGenerator(current_app.config.get('RANDOM_SEED_SALT', 'dicrhomat-salt'))
         config = generator.get_test_config(session_id, image_number)
         
         answer = Answer(

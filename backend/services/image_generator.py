@@ -7,10 +7,10 @@ import numpy as np
 
 class ImageGenerator:
     IMAGE_SIZE = 400
-    DOT_COUNT_MIN = 500
-    DOT_COUNT_MAX = 800
-    DOT_SIZE_MIN = 8
-    DOT_SIZE_MAX = 20
+    DOT_COUNT_MIN = 2000
+    DOT_COUNT_MAX = 3000
+    DOT_SIZE_MIN = 5
+    DOT_SIZE_MAX = 15
     
     COLOR_PALETTES = {
         'protanopia': {
@@ -44,7 +44,7 @@ class ImageGenerator:
         {'type': 'control', 'numbers': [7, 16, 23, 38, 52]},
     ]
     
-    def __init__(self, seed_salt='dicromat-salt'):
+    def __init__(self, seed_salt='dicrhomat-salt'):
         self.seed_salt = seed_salt
     
     def _get_seed(self, session_id: str, image_number: int) -> int:
@@ -72,13 +72,22 @@ class ImageGenerator:
             for c in base_color
         )
     
+    def _check_collision(self, x: int, y: int, size: int, placed_dots: list) -> bool:
+        """Check if a dot at (x, y) with given size would overlap with any placed dots."""
+        for dx, dy, dsize in placed_dots:
+            distance_sq = (x - dx) ** 2 + (y - dy) ** 2
+            min_distance = (size + dsize) / 2
+            if distance_sq < min_distance ** 2:
+                return True
+        return False
+
     def _create_number_mask(self, number: int, size: int) -> np.ndarray:
         img = Image.new('L', (size, size), 0)
         draw = ImageDraw.Draw(img)
-        
+
         text = str(number)
         font_size = size // 2
-        
+
         try:
             font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", font_size)
         except (OSError, IOError):
@@ -86,16 +95,16 @@ class ImageGenerator:
                 font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", font_size)
             except (OSError, IOError):
                 font = ImageFont.load_default()
-        
+
         bbox = draw.textbbox((0, 0), text, font=font)
         text_width = bbox[2] - bbox[0]
         text_height = bbox[3] - bbox[1]
-        
+
         x = (size - text_width) // 2 - bbox[0]
         y = (size - text_height) // 2 - bbox[1]
-        
+
         draw.text((x, y), text, fill=255, font=font)
-        
+
         return np.array(img)
     
     def generate_test_image(
@@ -122,28 +131,42 @@ class ImageGenerator:
         
         center = size // 2
         radius = (size // 2) - 10
-        
-        dot_count = rng.randint(self.DOT_COUNT_MIN, self.DOT_COUNT_MAX)
-        
-        for _ in range(dot_count):
+
+        target_dot_count = rng.randint(self.DOT_COUNT_MIN, self.DOT_COUNT_MAX)
+        placed_dots = []
+
+        max_attempts = target_dot_count * 10
+        attempts = 0
+
+        while len(placed_dots) < target_dot_count and attempts < max_attempts:
+            attempts += 1
+
             angle = rng.uniform(0, 2 * np.pi)
             r = rng.uniform(0, radius)
             x = int(center + r * np.cos(angle))
             y = int(center + r * np.sin(angle))
-            
+
             dot_size = rng.randint(self.DOT_SIZE_MIN, self.DOT_SIZE_MAX)
-            
-            if 0 <= x < size and 0 <= y < size and number_mask[y, x] > 128:
+
+            if not (0 <= x < size and 0 <= y < size):
+                continue
+
+            if self._check_collision(x, y, dot_size, placed_dots):
+                continue
+
+            if number_mask[y, x] > 128:
                 base_color = palette['foreground']
             else:
                 base_color = palette['background']
-            
+
             color = self._vary_color(base_color, rng)
-            
+
             draw.ellipse(
                 [x - dot_size//2, y - dot_size//2, x + dot_size//2, y + dot_size//2],
                 fill=color
             )
+
+            placed_dots.append((x, y, dot_size))
         
         mask = Image.new('L', (size, size), 0)
         mask_draw = ImageDraw.Draw(mask)
