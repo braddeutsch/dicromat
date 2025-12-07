@@ -1,5 +1,5 @@
 # Product Requirements Document: Technical Specifications
-## Dicromat - System Architecture and Implementation
+## Dicrhomat - System Architecture and Implementation
 
 ### Version
 1.0
@@ -11,7 +11,7 @@ December 2025
 
 ## 1. Overview
 
-This document provides comprehensive technical specifications for the Dicromat application, including system architecture, technology stack, infrastructure requirements, security measures, deployment strategy, and operational considerations.
+This document provides comprehensive technical specifications for the Dicrhomat application, including system architecture, technology stack, infrastructure requirements, security measures, deployment strategy, and operational considerations.
 
 ---
 
@@ -256,7 +256,7 @@ AND completed_at < NOW() - INTERVAL '90 days';
 ### 6.1 Base URL
 
 - Development: `http://localhost:5000`
-- Production: `https://api.dicromat.example.com`
+- Production: `https://api.dicrhomat.example.com`
 
 ### 6.2 API Versioning
 
@@ -324,12 +324,12 @@ AND completed_at < NOW() - INTERVAL '90 days';
 **CORS:**
 - Whitelist specific origins (no wildcard `*` in production)
 - Development: `http://localhost:3000`
-- Production: `https://dicromat.example.com`
+- Production: `https://dicrhomat.example.com`
 
 ```python
 # Flask CORS configuration
 CORS(app, origins=[
-    "https://dicromat.example.com",
+    "https://dicrhomat.example.com",
     "http://localhost:3000"  # Dev only
 ])
 ```
@@ -654,8 +654,8 @@ def set_security_headers(response):
 | Environment | Purpose | URL |
 |-------------|---------|-----|
 | Development | Local development | localhost:5000 (API), localhost:3000 (Frontend) |
-| Staging | Pre-production testing | staging.dicromat.example.com |
-| Production | Live users | dicromat.example.com |
+| Staging | Pre-production testing | staging.dicrhomat.example.com |
+| Production | Live users | dicrhomat.example.com |
 
 ### 12.2 Deployment Process
 
@@ -670,7 +670,7 @@ def set_security_headers(response):
 1. Pull latest code on server
 2. Install/update dependencies: `pip install -r requirements.txt`
 3. Run database migrations: `alembic upgrade head`
-4. Restart application server: `systemctl restart dicromat-api`
+4. Restart application server: `systemctl restart dicrhomat-api`
 5. Run health check: `curl /api/health`
 
 **Automated Deployment (CI/CD):**

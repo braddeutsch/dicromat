@@ -1,5 +1,5 @@
 # Product Requirements Document: Backend System
-## Dicromat - Flask API and Image Generation
+## Dicrhomat - Flask API and Image Generation
 
 ### Version
 1.0
@@ -11,7 +11,7 @@ December 2025
 
 ## 1. Overview
 
-The backend system provides RESTful API endpoints for test session management, dynamic image generation, answer recording, and results analysis. Built on Flask with SQLAlchemy ORM, it serves as the data layer and computation engine for the Dicromat application.
+The backend system provides RESTful API endpoints for test session management, dynamic image generation, answer recording, and results analysis. Built on Flask with SQLAlchemy ORM, it serves as the data layer and computation engine for the Dicrhomat application.
 
 ---
 
@@ -450,12 +450,12 @@ FLASK_ENV=development|production
 SECRET_KEY=<random-secret-key>
 
 # Database
-DATABASE_URL=postgresql://user:pass@localhost/dicromat
+DATABASE_URL=postgresql://user:pass@localhost/dicrhomat
 # or
-DATABASE_URL=sqlite:///dicromat.db
+DATABASE_URL=sqlite:///dicrhomat.db
 
 # CORS
-CORS_ORIGINS=http://localhost:3000,https://dicromat.example.com
+CORS_ORIGINS=http://localhost:3000,https://dicrhomat.example.com
 
 # Session
 SESSION_EXPIRY_HOURS=24

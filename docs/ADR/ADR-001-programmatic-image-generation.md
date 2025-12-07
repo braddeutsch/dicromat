@@ -8,7 +8,7 @@ Accepted
 
 ## Context
 
-The Dicromat application requires Ishihara-style test images to detect three types of dichromism (protanopia, deuteranopia, and tritanopia). We needed to decide between two primary approaches for providing these test images to users:
+The Dicrhomat application requires Ishihara-style test images to detect three types of dichromism (protanopia, deuteranopia, and tritanopia). We needed to decide between two primary approaches for providing these test images to users:
 
 1. **Pre-generated static images**: Create a fixed set of test images during development and serve the same images to all users
 2. **Programmatic generation**: Generate test images dynamically for each test session using server-side code

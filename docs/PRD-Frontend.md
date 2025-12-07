@@ -1,5 +1,5 @@
 # Product Requirements Document: Frontend System
-## Dicromat - React User Interface
+## Dicrhomat - React User Interface
 
 ### Version
 1.0
@@ -653,7 +653,7 @@ class ApiError extends Error {
 VITE_API_BASE_URL=http://localhost:5000
 
 # .env.production
-VITE_API_BASE_URL=https://api.dicromat.example.com
+VITE_API_BASE_URL=https://api.dicrhomat.example.com
 ```
 
 ### 11.2 Build Scripts

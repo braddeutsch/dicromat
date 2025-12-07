@@ -1,5 +1,5 @@
 # Product Requirements Document: Test Design
-## Dicromat - Scientific Methodology and Test Configuration
+## Dicrhomat - Scientific Methodology and Test Configuration
 
 ### Version
 1.0
@@ -11,7 +11,7 @@ December 2025
 
 ## 1. Overview
 
-This document defines the scientific basis, methodology, and specific configurations for the Dicromat dichromism detection test. It ensures the test is grounded in color vision science and provides reliable screening for protanopia, deuteranopia, and tritanopia.
+This document defines the scientific basis, methodology, and specific configurations for the Dicrhomat dichromism detection test. It ensures the test is grounded in color vision science and provides reliable screening for protanopia, deuteranopia, and tritanopia.
 
 ---
 
@@ -55,7 +55,7 @@ This document defines the scientific basis, methodology, and specific configurat
 
 ### 2.3 Ishihara Test Principle
 
-The Dicromat test is inspired by the Ishihara color test (published 1917), which uses:
+The Dicrhomat test is inspired by the Ishihara color test (published 1917), which uses:
 - **Pseudoisochromatic plates**: Images composed of colored dots
 - **Figure-ground separation**: Number formed by dots of one color set, background by another
 - **Luminance matching**: Dots have similar brightness (luminance) but different hues

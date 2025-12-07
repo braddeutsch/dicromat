@@ -2,7 +2,7 @@
 ## Overview
 
 ### Project Name
-Dicromat - Web-Based Dichromism Detection Test
+Dicrhomat - Web-Based Dichromism Detection Test
 
 ### Version
 1.0
@@ -14,7 +14,7 @@ December 2025
 
 ## 1. Executive Summary
 
-Dicromat is a web-based application designed to screen users for dichromism (two-color vision deficiency), including protanopia (red-blindness), deuteranopia (green-blindness), and tritanopia (blue-blindness). The application uses programmatically generated Ishihara-style test plates to assess color perception and provides immediate feedback on potential color vision deficiencies.
+Dicrhomat is a web-based application designed to screen users for dichromism (two-color vision deficiency), including protanopia (red-blindness), deuteranopia (green-blindness), and tritanopia (blue-blindness). The application uses programmatically generated Ishihara-style test plates to assess color perception and provides immediate feedback on potential color vision deficiencies.
 
 ### Key Features
 - 10-image color blindness test sequence
